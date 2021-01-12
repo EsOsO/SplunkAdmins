@@ -204,6 +204,15 @@ Either way the search head level version seems to be "good enough" to determine 
 Feel free to open an issue on github or use the contact author on the SplunkBase link and I will try to get back to you when possible, thanks!
 
 ## Release Notes
+### 2.6.1
+New alerts:
+`SearchHeadLevel - Splunk alert actions exceeding the max_action_results limit` - detect if any alert action exceeds the limit and receives limited results, currently a silent failure as per https://ideas.splunk.com/ideas/EID-I-781
+
+Updated alerts:
+`IndexerLevel - Search Failures` - comment/description update only (replaced by search messages based alerts)
+
+`SearchHeadLevel - Search Messages user level` - excluded messages from kvstore initialization
+
 ### 2.6.0
 Various README.md updates
 
