@@ -213,6 +213,8 @@ Updated alerts:
 
 `SearchHeadLevel - Search Messages user level` - excluded messages from kvstore initialization
 
+`SearchHeadLevel - Search Messages admins only` - added messages for kvstore unknown status
+
 ### 2.6.0
 Various README.md updates
 
